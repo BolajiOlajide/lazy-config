@@ -12,12 +12,6 @@ function LazyConfig(attrs) {
       }
 
       return Reflect.get(...arguments)
-    },
-    getPrototypeOf(target) {
-      return Object.getPrototypeOf(target)
-    },
-    ownKeys(target) {
-      return Object.getOwnPropertyNames(target)
     }
   })
 }
