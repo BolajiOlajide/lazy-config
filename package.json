@@ -1,0 +1,16 @@
+{
+  "name": "lazy-config",
+  "version": "0.0.0",
+  "description": "Config For the Lazy",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha" ."
+  },
+  "repository": "snugbear/lazy-config"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "Leo Duran <leoduran@gmail.com>",
+  "license": "MIT"
+}
