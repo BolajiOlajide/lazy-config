@@ -9,16 +9,16 @@ Our team uses this module to lazily evaluate configuration settings, such as env
 
 Install
 ```
-$ npm install lazy-config
+$ yarn install lazy-config
 ```
 
-Ensure that you have a `config.js` or `config/index.js` file
+Ensure that you have a `config/default.js` and optionally `config/{NODE_ENV}.js` file for environment overrides
 
 ## Usage
 
 ### Lazily evaluate an environment variable
 
-config.js
+config/default.js
 ```
 module.exports = {
   isDev: () => process.env.NODE_ENV === 'development',
@@ -50,7 +50,7 @@ $ config.db.password supersecure
 
 ### Throw when accessing a required environment variable
 
-config.js
+config/default.js
 ```
 module.exports = {
   isDev: () => process.env.NODE_ENV === 'development',
