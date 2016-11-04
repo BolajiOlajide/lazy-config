@@ -1,0 +1,12 @@
+{
+  "name": "require-env",
+  "version": "0.0.1",
+  "description": "Example app that requires environment variables",
+  "main": "index.js",
+  "author": "Leo Duran <leoduran@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lazy-config": "^0.1.1"
+  }
+}
