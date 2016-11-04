@@ -1,0 +1,5 @@
+./lib/**/*specs.js
+
+--ui bdd
+
+--require ./test/config.js
