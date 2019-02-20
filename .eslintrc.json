@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "globals": {
+    "sinon": false,
+    "expect": false
+  },
+  "rules": {
+    "indent": ["error", 2, {"ignoredNodes": ["ConditionalExpression"], "SwitchCase": 1 }],
+    "operator-linebreak": ["error", "before"],
+    "semi": ["error", "never"]
+  },
+  "env": {
+    "es6": true,
+    "mocha": true
+  }
+}

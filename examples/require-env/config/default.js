@@ -4,7 +4,7 @@ module.exports = {
   db: {
     userName: 'user',
     password: () => {
-      if(!process.env.DB_PASSWORD) {
+      if (!process.env.DB_PASSWORD) {
         throw new Error('Missing environment variable DB_PASSWORD')
       }
 
