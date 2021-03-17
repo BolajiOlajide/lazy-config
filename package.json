@@ -10,13 +10,14 @@
     "lint": "eslint . ./",
     "test": "mocha"
   },
-  "repository": "snugbear/lazy-config",
+  "repository": "BolajiOlajide/lazy-config",
   "keywords": [
     "config"
   ],
   "authors": [
     "Leo Duran <leoduran@gmail.com>",
-    "Dane Thurber <dane.thurber@gmail.com>"
+    "Dane Thurber <dane.thurber@gmail.com>",
+    "Bolaji Olajide <25608335+BolajiOlajide@users.noreply.github.com>"
   ],
   "license": "MIT",
   "devDependencies": {
